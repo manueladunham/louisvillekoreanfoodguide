@@ -30,13 +30,13 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/kimchistix.png" height="30" width="30" /></a>
+            <a class="navbar-brand" href="index.html"><img src="images/kimchistix.png" height="30" width="30" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#lkfgNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="lkfgNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
                     <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="dictionary.html"><i class="fa fa-info fa-lg"></i> Dictionary
                         <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -46,13 +46,44 @@
                             <li><a href="other.html">Other</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="restaurants.html"><i class="fa fa-list fa-lg"></i> Restaurants</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="restaurants.html"><i class="fa fa-list fa-lg"></i> Restaurants</a></li>
                     <li class="nav-item"><a class="nav-link" href="markets.html"><i class="fa fa-shopping-cart fa-lg"></i> Markets</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <div class="container">
+
+        <div class="row">
+            <div id="googlemap1" class="col-3 googlemap order-sm-last"></div>
+            <div class="col">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail" src="images/kimchi.jpg" alt="Kimchi" />
+                    <div class="media-body align-self-center">
+                        <h3>Lee's Korean</h3>
+                        <p>1941 Bishop Ln.</p>
+                        <p>Enjoy the soups and dishes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="googlemap2" class="col-3 googlemap order-sm-last"></div>
+            <div class="col">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail" src="images/kimchi.jpg" alt="Kimchi" />
+                    <div class="media-body align-self-center">
+                        <h3>Koreana Restaurant III</h3>
+                        <p>5009 Preston Hwy</p>
+                        <p>Enjoy the soups and dishes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     
 
     <footer>
@@ -66,5 +97,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPDnxxntds9-DzWg8bDshgLA39vRyUH0I&callback=myMap"></script>
   </body>
 </html>

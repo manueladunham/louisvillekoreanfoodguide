@@ -42,3 +42,12 @@
     padding-top: 15px;
     color: navy;
   }
+
+.img-thumbnail {
+    height: 200px;
+    width: 275px;
+}
+
+.googlemap {
+    height: 200px;
+}

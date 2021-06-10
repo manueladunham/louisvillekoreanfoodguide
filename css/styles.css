@@ -48,6 +48,13 @@
     width: 275px;
 }
 
+.row-content {
+    padding: 25px 0;
+    border-bottom: 2px solid darkblue;
+    min-height: 200px; 
+}
+
 .googlemap {
     height: 200px;
+    width: 200px;
 }

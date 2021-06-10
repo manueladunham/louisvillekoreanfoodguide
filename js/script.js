@@ -18,10 +18,12 @@ function myMap() {
       center:new google.maps.LatLng(38.20377,-85.68376),
       zoom:15,
     };
+    
     var mapOptions2= {
-        center:new google.maps.LatLng(38.18083,-85.71317),
+        center:new google.maps.LatLng(38.17737,-85.71132),
         zoom:15,
       };
+
     var map1 = new google.maps.Map(document.getElementById("googlemap1"),mapOptions1);
     var map2 = new google.maps.Map(document.getElementById("googlemap2"),mapOptions2);
 }
